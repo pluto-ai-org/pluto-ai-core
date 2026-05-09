@@ -2,14 +2,11 @@ from langgraph.graph import START,END,StateGraph
 from typing import TypedDict
 from langchain_groq import ChatGroq
 from langgraph.graph.message import add_messages
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
 llm=ChatGroq(
     model='llama-3.1-8b-instant',
 
-    api_key=os.getenv('GROQ_API_KEY')
+    api_key='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'
 )
 
 class State(TypedDict):
