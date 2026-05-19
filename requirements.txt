@@ -6,3 +6,4 @@ langchain
 langgraph
 langchain-core
 langchain-groq
+markdown
